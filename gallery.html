@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+
+    <title>A'laoff-Gallery</title>
+</head>
+
+        
+            <body>
+            
+            <h2 class="gallery-center">Welcome to our Gallery </h2>
+            
+            <div class="slides-container">
+              <img class="Slides" src="img5.jpg" style ="width: 100%;" >
+              <img class="Slides" src="img7.jpg" style ="width: 100%;">
+              <img class="Slides" src="img8.jpg" style ="width: 100%;">
+              <img class="Slides" src="img9.jpg" style ="width: 100%;">
+            
+              <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("Slides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+            
+            </body>
+            </html>
+            
+    </header>

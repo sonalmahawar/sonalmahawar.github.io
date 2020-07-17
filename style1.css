@@ -1,0 +1,89 @@
+.container{
+    font-size: xx-large;
+    font-weight: 700;
+    background-color: rgb(100, 211, 211);
+    color:whitesmoke;
+    
+    
+
+}
+.bar {
+    list-style-type: none;
+    padding: 0 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  #home{
+
+
+    background-image:url(./img4.jpg);
+    min-height: 700px;
+    background-size: cover;
+    
+}
+.overlay{
+
+    background-color: rgba(163, 158, 158, 0.4);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+.home-inside{
+
+    padding-top: 150px;
+}
+
+.container1{
+  color:whitesmoke;
+}
+.contact{
+  background-color: rgb(106, 230, 230);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 420px;
+  width: 30%;
+  height: 100%;
+  border: 8px black;
+  padding: 60px;
+  
+  text-align: center;
+}
+.Slides 
+{display:none;
+}
+.gallery-center{
+  text-align: center;
+  
+}
+.contact-inner{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 130px;
+}
+
+
